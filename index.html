@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Restaurant Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button class="open-btn" onclick="toggleSidebar()">☰</button>
+    <div class="sidebar" id="sidebar">
+        <nav>
+            <ul>
+                <br>
+                <br>
+                <br>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header class="hero">
+        <div class="hero-content">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <center><h1>Welcome to Fork & Fire</h1>
+            <p>Experience the taste of authenticity.</p>
+            <button onclick="showMenu()">Explore Menu</button>
+            </center>
+        </div>
+    </header>
+    <br><br>
+    <marquee behavior="scroll" direction="left" scrollamount="5" scrolldelay="1" loop="infinite">Flash Sale: Enjoy 20% off on all orders today!   Pre-booking available!</marquee>
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>At Fork & Fire, we're passionate about serving up delicious, crafted comfort food that brings people together. Our chefs combine traditional flavors with creative twists to create mouthwatering burgers, wood-fired pizzas, and artisanal pasta dishes that will leave you craving more.
+        <h3>Our Story</h3>
+            
+        Fork & Fire was born from a love of good food, warm gatherings, and community. Our founders, Anaswara and Anjana, wanted to create a cozy spot where friends and family could share laughs, make memories, and savor every bite.
+            </p>
+        <p><b>Join us for an unforgettable dining experience.</b></p>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="imgs/pizza.jpg" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>Cheesy goodness with fresh toppings.</p>
+                <button onclick="location.href='pizza.html'">View Pizza Menu</button>
+            </div>
+            <div class="menu-item">
+                <img src="imgs/burger.jpg" alt="Burger">
+                <h3>Burger</h3>
+                <p>Juicy and delicious, made to order.</p>
+                <button onclick="location.href='burger.html'">View Burger Menu</button>
+            </div>
+            <div class="menu-item">
+                <img src="imgs/pasta.jpg" alt="Pasta">
+                <h3>Pasta</h3>
+                <p>Rich and flavorful, with a touch of Italy.</p>
+                <button onclick="location.href='pasta.html'">View Pasta Menu</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Email: info@forkandfire.com</p>
+        <p>Phone: +91 12345 67890</p>
+        <p>Address: No.1 Snehatheeram Thrissur North,Kerala</p>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

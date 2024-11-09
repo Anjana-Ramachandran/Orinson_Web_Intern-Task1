@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Burger Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <center>
+    <header>
+        <h1>Burger Menu</h1>
+    </header>
+    <section>
+        <div class="menu-item" onmouseover="showImage('imgs/burg1.jpg')" onmouseout="hideImage()">
+            <h3>Classic Burger</h3>
+            <p>Beef patty with lettuce, tomato, and cheese</p>
+            <p>Price: Rs.180</p>
+        </div>
+        <div class="menu-item" onmouseover="showImage('imgs/burger2.jpg')" onmouseout="hideImage()">
+            <h3>Cheeseburger</h3>
+            <p>Beef patty with cheddar cheese</p>
+            <p>Price: Rs.200</p>
+        </div>
+        <div class="menu-item" onmouseover="showImage('imgs/burger3.jpg')" onmouseout="hideImage()">
+            <h3>Veggie Burger</h3>
+            <p>Vegetable patty with lettuce and tomato</p>
+            <p>Price: Rs.120</p>
+        </div>
+    </section>
+    <img id="item-image" style="display:none; position: fixed; top: 50px; right: 50px; width: 200px;">
+    </center>
+    <script src="scripts.js"></script>
+</body>
+</html>

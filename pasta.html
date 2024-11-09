@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pasta Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <center>
+    <header>
+        <h1>Pasta Menu</h1>
+    </header>
+    <section>
+        <div class="menu-item" onmouseover="showImage('imgs/pasta1.jpg')" onmouseout="hideImage()">
+            <h3>Spaghetti Carbonara</h3>
+            <p>Spaghetti with creamy sauce and pancetta</p>
+            <p>Price: Rs.300</p>
+        </div>
+        <div class="menu-item" onmouseover="showImage('imgs/pasta2.jpg')" onmouseout="hideImage()">
+            <h3>Fettuccine Alfredo</h3>
+            <p>Fettuccine with creamy Alfredo sauce</p>
+            <p>Price: Rs.400</p>
+        </div>
+        <div class="menu-item" onmouseover="showImage('imgs/pasta3.jpg')" onmouseout="hideImage()">
+            <h3>Penne Arrabbiata</h3>
+            <p>Penne pasta with spicy tomato sauce</p>
+            <p>Price: Rs.350</p>
+        </div>
+    </section>
+    <img id="item-image" style="display:none; position: fixed; top: 50px; right: 50px; width: 200px;">
+    </center>
+    <script src="scripts.js"></script>
+</body>
+</html>
